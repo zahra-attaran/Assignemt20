@@ -1,0 +1,36 @@
+body{
+    direction: rtl;
+}
+.bg{ width:200px; height:200px;
+    background: #f09433;
+    background: -moz-linear-gradient(15deg, #f09433 17%,#e6683c 26%,#dc2743 44%,#cc2366 60%,#bc1888 73%,#03429f 100%);
+    background: -webkit-linear-gradient(15deg, #f09433 17%,#e6683c 26%,#dc2743 44%,#cc2366 60%,#bc1888 73%,#03429f 100%);
+    background: linear-gradient(15deg, #f09433 17%,#e6683c 26%,#dc2743 44%,#cc2366 60%,#bc1888 73%,#03429f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+border-radius: 50px;
+}
+.mainBorder{
+    height: 150px;
+    width: 150px;
+    border: 10px solid white;
+    border-radius: 30px;
+}
+
+.circle{
+    border: 10px solid white;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+
+}
+.gerdali{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: white;
+    margin: 12px 15px 0 0;
+}
+.h100{
+height: 100vh !important;
+}
